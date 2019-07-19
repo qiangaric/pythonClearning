@@ -1,0 +1,8 @@
+
+1,数据格式化
+
+print(' '.join(['%s']*10))
+
+2，Notype 数据处理(如果有Nonetype数据)
+
+', '.join([str(x) for x in kafka_dict["data"][0].values()])
